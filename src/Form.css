@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.lab-form{
+    position: relative;
+    width: 450px;
+    height: 480px;
+    border-radius: 8px;
+    background-image: url(../src/img/labformbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 104px;
+    margin-bottom: 0%;
+    overflow-y: scroll;
+}
+
+#file{
+    padding: 5px 25px;
+    color: white;
+}
+
+body{
+    background-image: url(../src/img/ScienceLab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.lab-form h1{
+    padding-top: 30px;
+    color: rgb(92, 163, 204);
+}
+
+.inputbox{
+    align-items: flex-start;
+    justify-content: center;
+    margin: 45px 70px;
+}
+
+.description{
+    padding: 2% 75px;
+}
+
+.status{
+    align-items: flex-start;
+}
+
+.inputbox input{
+    border-style: outset;
+    padding: 7px 75px;
+}
+
+.inputbox label{
+    color: white;
+    padding-right: 10px;
+}
+
+.Submition{
+    /* background-color: gray; */
+    margin-left: 503px;
+    margin-right: 503px;
+    margin-top: -40px;
+    position: relative;
+    
+    justify-content: center;
+    flex-wrap: unset;
+}
+
+button{
+    border-radius: 7px;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover{
+    background-color: aquamarine;
+    transform: translate(5px);
+}
